@@ -29,7 +29,6 @@ section .text
     
     ; Dividir num1 y num2 y guardar el resultado en resDiv
     mov rax, [num1]
-    xor rdx, rdx
     div rbx
     mov [resDiv], rax
 
